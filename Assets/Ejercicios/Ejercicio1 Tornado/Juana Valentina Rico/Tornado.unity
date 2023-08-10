@@ -5566,13 +5566,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247921153}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.187332, y: -0, z: -0, w: 0.98229665}
+  m_LocalPosition: {x: 0, y: 3.14, z: -3.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 21.594, y: 0, z: 0}
 --- !u!114 &1247921157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7382,7 +7382,7 @@ ParticleSystem:
     orbitalY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -10649,6 +10649,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: VelocityModule.radial.scalar
       value: 0
       objectReference: {fileID: 0}
@@ -10824,7 +10828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 1.94
+      value: 3.54
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: VelocityModule.orbitalY.scalar
@@ -10840,7 +10844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -10875,6 +10879,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
+      propertyPath: SizeModule.y.maxCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].probability
       value: 1
       objectReference: {fileID: 0}
@@ -10884,7 +10892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: SizeModule.y.maxCurve.m_Curve.Array.data[0].value
-      value: 0.64864874
+      value: 0.3243245
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: SizeModule.y.maxCurve.m_Curve.Array.data[1].value
@@ -10904,7 +10912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: SizeModule.y.maxCurve.m_Curve.Array.data[1].inSlope
-      value: -0.64864874
+      value: -0.3243245
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: SizeModule.z.maxCurve.m_Curve.Array.data[0].inSlope
@@ -10936,7 +10944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: SizeModule.y.maxCurve.m_Curve.Array.data[1].outSlope
-      value: -0.64864874
+      value: -0.3243245
       objectReference: {fileID: 0}
     - target: {fileID: 5764970090705450943, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
       propertyPath: SizeModule.z.maxCurve.m_Curve.Array.data[0].inWeight
