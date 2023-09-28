@@ -62,10 +62,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - DissolveSmooth: 1.25
-    - DissolveStart: 1
-    - ErossionStrength: 2.19
-    - NoiseScale: 20
+    - DissolveSmooth: 0.1
+    - DissolveStart: 0.1
+    - ErossionStrength: 1
+    - NoiseScale: 10
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
