@@ -25,6 +25,10 @@ Por alguna razón no se ve la ruedita de color, pero se usó para la demostraci�
 ![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/9a2db025-a342-47a8-a631-f7886b1f1b95)
 ![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/7c03fb97-06bc-4f28-8ec0-e24dd01f1c59)
 
+https://github.com/TheArchess/Los-Capibaras/assets/83350102/9b1c4aaa-309e-4def-954f-ad306cd9a625
+
+El dissolver se mueve a 0.1 fps por culpa de mi portatil, pero se mueve
+
 ## Disolver textura
 
 ![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/662a9e7a-6f1b-47e7-bbef-6f40f53171b7)
