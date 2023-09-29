@@ -1,6 +1,8 @@
 # Máscaras (Juana Valentina Rico)
 
-
+## Mascara Radial
+![imagen](https://github.com/TheArchess/Los-Capibaras/blob/main/Assets/Ejercicios/Ejercicio3Shaders/Juana_Valentina_RIco/Assets/ArboldeNodosMAscaraRadial.PNG?raw=true)
+![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/662a9e7a-6f1b-47e7-bbef-6f40f53171b7)
 
 # Distorsion (Susana Bustamante)
 
