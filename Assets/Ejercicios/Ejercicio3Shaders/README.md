@@ -1,6 +1,14 @@
 # Máscaras (Juana Valentina Rico)
 
-## Mascara Radial
+## Máscara Multicanal
+
+![imagen](https://github.com/TheArchess/Los-Capibaras/blob/main/Assets/Ejercicios/Ejercicio3Shaders/Juana_Valentina_RIco/Assets/MulticanalArbldeNodos.PNG?raw=true)
+
+![imagen](https://github.com/TheArchess/Los-Capibaras/blob/main/Assets/Ejercicios/Ejercicio3Shaders/Juana_Valentina_RIco/Assets/MulticananlGif.gif?raw=true)
+
+Por alguna razón no se ve la ruedita de color, pero se usó para la demostración.
+
+## Máscara Radial
 
 ![imagen](https://github.com/TheArchess/Los-Capibaras/blob/main/Assets/Ejercicios/Ejercicio3Shaders/Juana_Valentina_RIco/Assets/ArboldeNodosMAscaraRadial.PNG?raw=true)
 
