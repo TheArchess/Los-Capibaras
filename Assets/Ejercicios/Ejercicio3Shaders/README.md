@@ -27,4 +27,11 @@ https://github.com/TheArchess/Los-Capibaras/assets/83350102/40068c69-a36b-47f8-8
 
 ## Coordenadas polares
 
+![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/8e087fa5-53f4-403f-bdba-b90414a33e24)
+![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/8dd690dd-7b0c-4641-9cbb-5f8cea9c6f0f)
+
+
 ## Textura en espejo
+
+![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/1e838b7d-c00f-4810-a523-30252431ce1e)
+![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/395ac6d2-5b55-4adc-9ccb-4d87a9bd30cc)
