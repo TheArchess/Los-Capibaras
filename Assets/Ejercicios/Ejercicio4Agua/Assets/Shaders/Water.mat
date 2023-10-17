@@ -23,16 +23,48 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - ToonGradient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 9a7606a8a90eef54989d37c98850220b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DisplacementNoise:
-        m_Texture: {fileID: 2800000, guid: ddf529a6f8e945c4fb1f848260903e7c, type: 3}
+        m_Texture: {fileID: 2800000, guid: a2d2b711f2034bd40982fec498d1d120, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistorsionNormal:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleCubemap_03ba55b13b194b4587a5034c2d9d1efd_Cube_1_Cubemap:
+        m_Texture: {fileID: 8900000, guid: 9a7606a8a90eef54989d37c98850220b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_082b9f6aa15d4df4b372ca1c661764d2_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a2d2b711f2034bd40982fec498d1d120, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ddc70b081f4347ef85a7706d66fe7fbe_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e040a8dc81c0423fa7a6b9a119f2b3d5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e0f471f09cdd7394bb459c9aaccd2f62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fc2ba41da74243b49ee0857de2b91d15_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d947c2313523bdb4aa2395e9e9b88488, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonGradient:
+        m_Texture: {fileID: 2800000, guid: e0f471f09cdd7394bb459c9aaccd2f62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _refractiontexture:
-        m_Texture: {fileID: 2800000, guid: ddf529a6f8e945c4fb1f848260903e7c, type: 3}
+        m_Texture: {fileID: 2800000, guid: a2d2b711f2034bd40982fec498d1d120, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -49,19 +81,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DisplacementStrenght: 0.11
-    - _Distance: 1.01
+    - _Blend: 0
+    - _DisplacementStrenght: 0.01
+    - _Distance: 1
     - _DistorsionStrength: 0
-    - _IntersectionCutoff: 1.5
+    - _IntersectionCutoff: 1.19
+    - _NormalStrength: 0.2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _refractionamount: 0.1
+    - _ReflectionIntensity: 1.17
+    - _ReflectionQuality: 0.1
+    - _SpecularIntensity: 5
+    - _refractionamount: 0.53
     m_Colors:
     - DeepWater: {r: 0.082352936, g: 0.22520962, b: 0.3882353, a: 0.5019608}
     - ShallowWater: {r: 0.2423016, g: 0.8029131, b: 0.9339623, a: 0.2509804}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DeepWater: {r: 0.118147045, g: 0.17382409, b: 0.5566038, a: 0}
-    - _DisplacementSpeed: {r: 0.1, g: 0, b: 0, a: 0}
+    - _DisplacementSpeed: {r: 0.2, g: 0, b: 0, a: 0}
     - _ShallowWater: {r: 0.07338022, g: 0.7551686, b: 0.9150943, a: 0}
     - _intersectioncolor: {r: 1, g: 1, b: 1, a: 1}
     - _intersectionsmoothstep: {r: 0, g: 1, b: 0, a: 0}
