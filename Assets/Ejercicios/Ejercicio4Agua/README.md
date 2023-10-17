@@ -1,5 +1,9 @@
 # Shader Graph
 
+![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/3db24292-4375-4d89-a991-fdc71d1c307a)
+
+## Grupos del graph más detallados
+
 ![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/6e1c1d45-85c4-41a9-962e-a487bb46f3fd)
 
 ![imagen](https://github.com/TheArchess/Los-Capibaras/assets/83350102/982c45d5-ac0c-4701-a2a1-aa15a858a2bd)
