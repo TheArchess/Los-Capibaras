@@ -47,9 +47,9 @@ Material:
     m_Floats:
     - _ApertureEnd: 5
     - _ApertureStart: 0
-    - _AppertureSmooth: 37.63
-    - _AppertureStart: 14.5
-    - _FocalDistance: 3.96
-    - _PixelOffset: 12.36
+    - _AppertureSmooth: 26.74
+    - _AppertureStart: 1.1
+    - _FocalDistance: 14.57
+    - _PixelOffset: 18.5
     m_Colors: []
   m_BuildTextureStacks: []
