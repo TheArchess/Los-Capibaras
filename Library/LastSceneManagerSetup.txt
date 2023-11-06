@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene/Pool Party Gangplank.unity
+- path: Assets/Ejercicios/Ejercicio2RayoOscuro/Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
