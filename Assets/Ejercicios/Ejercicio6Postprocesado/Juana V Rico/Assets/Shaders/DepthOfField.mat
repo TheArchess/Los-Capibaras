@@ -50,6 +50,6 @@ Material:
     - _AppertureSmooth: 26.74
     - _AppertureStart: 1.1
     - _FocalDistance: 14.57
-    - _PixelOffset: 18.5
+    - _PixelOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
