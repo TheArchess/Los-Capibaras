@@ -15,7 +15,7 @@ C:/Users/Susana/Documents/GitHub/proyecto/Los-Capibaras
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50996
+51676
 Successfully changed project path to: C:/Users/Susana/Documents/GitHub/proyecto/Los-Capibaras
 C:/Users/Susana/Documents/GitHub/proyecto/Los-Capibaras
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Susana/Documents/GitHub/proyecto/Los-Capibaras
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4372] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 437573410 [EditorId] 437573410 [Version] 1048832 [Id] WindowsEditor(7,Susi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5180] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1329290777 [EditorId] 1329290777 [Version] 1048832 [Id] WindowsEditor(7,Susi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4372] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 437573410 [EditorId] 437573410 [Version] 1048832 [Id] WindowsEditor(7,Susi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5180] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1329290777 [EditorId] 1329290777 [Version] 1048832 [Id] WindowsEditor(7,Susi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 35.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 21.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -64,51 +64,51 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
     Vendor:   NVIDIA
     VRAM:     4017 MB
-    Driver:   31.0.15.4584
+    Driver:   31.0.15.4601
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019445 seconds.
-- Loaded All Assemblies, in  0.645 seconds
+Registered in 0.020762 seconds.
+- Loaded All Assemblies, in  0.591 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.421 seconds
-Domain Reload Profiling: 1063ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 1041ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (229ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (142ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (200ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (210ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (421ms)
+	FinalizeReload (454ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (329ms)
+		SetupLoadedEditorAssemblies (361ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,53 +118,75 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Susana\Documents\GitHub\proyecto\Los-Capibaras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Susana\Documents\GitHub\proyecto\Los-Capibaras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.649 seconds
-Refreshing native plugins compatible for Editor in 8.10 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.429 seconds
+Refreshing native plugins compatible for Editor in 8.54 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.992 seconds
-Domain Reload Profiling: 2635ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 2432ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (1279ms)
-		LoadAssemblies (754ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1052ms)
+		LoadAssemblies (532ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (633ms)
-			TypeCache.Refresh (584ms)
-				TypeCache.ScanAssembly (563ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (993ms)
+		AnalyzeDomain (625ms)
+			TypeCache.Refresh (577ms)
+				TypeCache.ScanAssembly (557ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1010ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (742ms)
+		SetupLoadedEditorAssemblies (746ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (464ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 9.05 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 11.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (351.2 KB). Loaded Objects now: 5499.
-Memory consumption went from 206.4 MB to 206.1 MB.
-Total: 6.055500 ms (FindLiveObjects: 0.531100 ms CreateObjectMapping: 0.567300 ms MarkObjects: 4.678100 ms  DeleteObjects: 0.277300 ms)
+Unloading 5028 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (3.1 MB). Loaded Objects now: 5448.
+Memory consumption went from 197.8 MB to 194.6 MB.
+Total: 5.598500 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.456100 ms MarkObjects: 3.160000 ms  DeleteObjects: 1.513200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (3.1 MB). Loaded Objects now: 5448.
+Memory consumption went from 105.7 MB to 102.6 MB.
+Total: 5.235800 ms (FindLiveObjects: 0.448400 ms CreateObjectMapping: 0.455900 ms MarkObjects: 2.875800 ms  DeleteObjects: 1.454800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -180,49 +202,330 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 156311.165293 seconds.
-  path: Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/materials/Piso.mat
-  artifactKey: Guid(d64f8c4d709274b499d1d4a30dae5b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/materials/Piso.mat using Guid(d64f8c4d709274b499d1d4a30dae5b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b903f0d3310aeb7ccfa8d7660ca9c0b7') in 0.012710 seconds
+  Time since last request: 158667.072439 seconds.
+  path: Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Texture/Flowing_Bands.png
+  artifactKey: Guid(cc9c1cf8d3b3341489866f37a7004698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Texture/Flowing_Bands.png using Guid(cc9c1cf8d3b3341489866f37a7004698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d9bf5e3fcb8b585f047401ee5bad99') in 0.007408 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.009296 seconds.
+  path: Assets/Ejercicios/Ejercicio1 Tornado/Juan_Simon_Hurtado/Prefabs/Tornado.prefab
+  artifactKey: Guid(f3e73d0d9bc7ed04a9fe9abe5e03c644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio1 Tornado/Juan_Simon_Hurtado/Prefabs/Tornado.prefab using Guid(f3e73d0d9bc7ed04a9fe9abe5e03c644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9387459f288dab148d6c680cdf7763') in 0.136166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.977641 seconds.
+  path: Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Material
+  artifactKey: Guid(5b2f1342a3f390046a69f75e1b50f18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Material using Guid(5b2f1342a3f390046a69f75e1b50f18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef82f4dc195eeb5f21a17bef9d3d96a0') in 0.000900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.939373 seconds.
+  path: Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Texture 1
+  artifactKey: Guid(c180eb2d505cc08458b1e22c52614e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Texture 1 using Guid(c180eb2d505cc08458b1e22c52614e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c959ca691f9c7ec70347c9e40147a3f2') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.484290 seconds.
+  path: Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Texture
+  artifactKey: Guid(9f640b1d85fcf4e42b59a3dbd0133a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Texture using Guid(9f640b1d85fcf4e42b59a3dbd0133a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef765d4f273d6430411fdb2c845fbe8e') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.420218 seconds.
+  path: Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Prefabs/Tornado.prefab
+  artifactKey: Guid(5d77ce825ee061f47b79aa4dd3f5ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Prefabs/Tornado.prefab using Guid(5d77ce825ee061f47b79aa4dd3f5ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae14f2abb8fcce5ac4fa03347a006e5') in 0.005979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.904553 seconds.
+  path: Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Scenes/Tornado.unity
+  artifactKey: Guid(ff5263061732f4f48a971554b9b20a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio1 Tornado/Susana Bustamante/Scenes/Tornado.unity using Guid(ff5263061732f4f48a971554b9b20a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f46b46bde0876356cc6698c49a3ec4a') in 0.001927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 122.003616 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Materials/Jpeg.jpg
+  artifactKey: Guid(362fb4769b016e7418996ed0f57f3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Materials/Jpeg.jpg using Guid(362fb4769b016e7418996ed0f57f3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cba99e9c5481c15605072a777a2a429') in 0.005195 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/Shader Graphs_Profundidad de campo.mat
-  artifactKey: Guid(3c15f124e7a1aff42955ab7e157dc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/Shader Graphs_Profundidad de campo.mat using Guid(3c15f124e7a1aff42955ab7e157dc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3182d4964e1326143ac63b5a44ee455d') in 0.002687 seconds
+  Time since last request: 0.002422 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Materials/New Material.mat
+  artifactKey: Guid(b6e678c8c05549744a9e98c89aaf53df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Materials/New Material.mat using Guid(b6e678c8c05549744a9e98c89aaf53df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6167ce9f7bba62b7dcae07b5870cafff') in 0.001802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.595558 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Scene/Escena.unity
+  artifactKey: Guid(4d7b3adf7c6cc0f4ab93fd34960aa215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Scene/Escena.unity using Guid(4d7b3adf7c6cc0f4ab93fd34960aa215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1023beabf21bf6bb2d073eb07c74bbef') in 0.001086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.844479 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberracion.shadergraph
+  artifactKey: Guid(959b1cc0338f4774e890fb0e3f0fdfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberracion.shadergraph using Guid(959b1cc0338f4774e890fb0e3f0fdfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429b072f5b6a2b1392c63ab32f663a17') in 0.001899 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 10.200808 seconds.
-  path: Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene/Pool Party Gangplank.unity
-  artifactKey: Guid(bd645a18cff1e924a92b1b817e58bdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene/Pool Party Gangplank.unity using Guid(bd645a18cff1e924a92b1b817e58bdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0190b7afc07c9f8794083c015592e032') in 0.000635 seconds
+  Time since last request: 13.015751 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/Profundidad de campo.shadergraph
+  artifactKey: Guid(e5608e46051bf3e47a54b745df5de8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/Profundidad de campo.shadergraph using Guid(e5608e46051bf3e47a54b745df5de8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd8926dc79f994c9d66554b386994a') in 0.003247 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.022343 seconds.
-  path: Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene
-  artifactKey: Guid(1cf51d164552f4a468377238f2c3ccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene using Guid(1cf51d164552f4a468377238f2c3ccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70faecbfa97f3577a79dca5ccd91ebfc') in 0.000811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.320541 seconds.
-  path: Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene/New SceneTemplate.scenetemplate
-  artifactKey: Guid(4e67685df2fbfe745b0a6a33575a3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene/New SceneTemplate.scenetemplate using Guid(4e67685df2fbfe745b0a6a33575a3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8224f4d2d1fe6f28229fd2b1eb5253') in 0.002274 seconds
+  Time since last request: 18.095702 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Simon Hurtado/Assets/Scripts/GaussianBlur.hlsl
+  artifactKey: Guid(a15ff4fecb10184439488a6d28e45737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Simon Hurtado/Assets/Scripts/GaussianBlur.hlsl using Guid(a15ff4fecb10184439488a6d28e45737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb6f9d707da5a94b4a97efff961d16') in 0.002287 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 23.383156 seconds.
-  path: Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene/New Scene.unity
-  artifactKey: Guid(020be7b97612423498da15f3a8130051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicios/EjercicioFinalDemo/Efecto 2/scene/New Scene.unity using Guid(020be7b97612423498da15f3a8130051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21acbdda6b3f69d902f378ecc91ded29') in 0.000684 seconds
+  Time since last request: 7.439199 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Simon Hurtado/Assets/Resources/Chromatic.shadergraph
+  artifactKey: Guid(472c2315c324dbf44a1ea9da2fa4cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Simon Hurtado/Assets/Resources/Chromatic.shadergraph using Guid(472c2315c324dbf44a1ea9da2fa4cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f4ba24cd7694e283b6d9de2f8342f3') in 0.009694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.342598 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/NewUnlitShader.shader
+  artifactKey: Guid(24a10e7fd2e66564f80a7b75e1aa4459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/NewUnlitShader.shader using Guid(24a10e7fd2e66564f80a7b75e1aa4459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f5743c6092c08cbf6a55475c2536a3') in 0.002150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.753554 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/NewRayTracingShader.raytrace
+  artifactKey: Guid(2dea98950848ea44dba505fac0d23319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/NewRayTracingShader.raytrace using Guid(2dea98950848ea44dba505fac0d23319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38617a692eb73881c85b60809065e59a') in 0.001346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.997132 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/NewSurfaceShader.shader
+  artifactKey: Guid(a3369145449a8374cbfd41426ef39e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/NewSurfaceShader.shader using Guid(a3369145449a8374cbfd41426ef39e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1e427d3f598e080a1244e7193047ea') in 0.007034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 47.786039 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Code
+  artifactKey: Guid(bd79f0557291da248b81ff5e55936dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Code using Guid(bd79f0557291da248b81ff5e55936dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80465bb99b509a3404343e14df38c9c') in 0.000897 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.796729 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Code/Blur.cs
+  artifactKey: Guid(11b39f63b55a30f40a7b3206f270e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Code/Blur.cs using Guid(11b39f63b55a30f40a7b3206f270e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac5a669271e8148d4b6281570859472') in 0.000588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.473082 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/DepthOfField.mat
+  artifactKey: Guid(f404820699c52204992ea08b08089591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/DepthOfField.mat using Guid(f404820699c52204992ea08b08089591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7297427c10f716b393065bfde798e065') in 0.001090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.051474 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/Aberration.shadergraph
+  artifactKey: Guid(985bcd12368e28842a276934f1899a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/Aberration.shadergraph using Guid(985bcd12368e28842a276934f1899a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bc93bdb290e1beaa97287fda05a53c') in 0.003115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.966351 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/NewUnlitShader.shader
+  artifactKey: Guid(99bf652831f787d43a9c0e42dd355fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/NewUnlitShader.shader using Guid(99bf652831f787d43a9c0e42dd355fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f367c520946743be02da3b3e52d5d79a') in 0.001563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 84.792910 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.shadergraph
+  artifactKey: Guid(8b6e9ead3bd3f394ba0a1138b843694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.shadergraph using Guid(8b6e9ead3bd3f394ba0a1138b843694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f581650b61ce85786c6f90648dfd825c') in 0.002718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.540645 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.shadergraph
+  artifactKey: Guid(8b6e9ead3bd3f394ba0a1138b843694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.shadergraph using Guid(8b6e9ead3bd3f394ba0a1138b843694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ea924e7edfd671edfedbc13f66b16f') in 0.002104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 763.979282 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.shadergraph
+  artifactKey: Guid(8b6e9ead3bd3f394ba0a1138b843694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.shadergraph using Guid(8b6e9ead3bd3f394ba0a1138b843694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4211071b17c64ee3b13cb7b39099a39f') in 0.002696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.087973 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/Blur.cs
+  artifactKey: Guid(03b34d193c18c1144844bd17d3c51510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/codigo/Blur.cs using Guid(03b34d193c18c1144844bd17d3c51510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89bbc3c6a8b5c7d50799e5d79f52d6d') in 0.002553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Susana\Documents\GitHub\proyecto\Los-Capibaras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Susana\Documents\GitHub\proyecto\Los-Capibaras\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.148 seconds
+Refreshing native plugins compatible for Editor in 6.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.101 seconds
+Domain Reload Profiling: 17242ms
+	BeginReloadAssembly (346ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (141ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (2685ms)
+		LoadAssemblies (2375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (410ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (362ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (14101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (3.1 MB). Loaded Objects now: 5454.
+Memory consumption went from 180.7 MB to 177.6 MB.
+Total: 7.620900 ms (FindLiveObjects: 0.585300 ms CreateObjectMapping: 0.518000 ms MarkObjects: 4.709100 ms  DeleteObjects: 1.807400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.412868 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.mat
+  artifactKey: Guid(943305b4ac6ffe943923ea077b3445f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/aberration.mat using Guid(943305b4ac6ffe943923ea077b3445f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764c771898f392f48a7e4a202da6537c') in 0.015740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.598033 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/New Shader Graph.shadergraph
+  artifactKey: Guid(93c5dd9a7ff7b2d4288c095eb87f24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/New Shader Graph.shadergraph using Guid(93c5dd9a7ff7b2d4288c095eb87f24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e700661bbff084adc857e106d6611a69') in 0.002889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.160314 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/DepthOfField.shadergraph
+  artifactKey: Guid(2150e93051533684bb9e4497841ae8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/DepthOfField.shadergraph using Guid(2150e93051533684bb9e4497841ae8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26de0fa351d39596f52f4611ab60158') in 0.001836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.532864 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/depthoffield.shadergraph
+  artifactKey: Guid(93c5dd9a7ff7b2d4288c095eb87f24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/depthoffield.shadergraph using Guid(93c5dd9a7ff7b2d4288c095eb87f24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3222914f983d5f8220993eb1b3b74a85') in 0.001809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 331.032289 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/Profundidad de campo.shadergraph
+  artifactKey: Guid(c0a57a39ef5f53e49b353ebbb220761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Juana V Rico/Assets/Shaders/Profundidad de campo.shadergraph using Guid(c0a57a39ef5f53e49b353ebbb220761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9cb11bebaf125724ba1d45b20ff5c2') in 0.002670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 242.964715 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/depthoffield.shadergraph
+  artifactKey: Guid(93c5dd9a7ff7b2d4288c095eb87f24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/depthoffield.shadergraph using Guid(93c5dd9a7ff7b2d4288c095eb87f24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bb5c7ab8ad54af3b4288ccad0c7502') in 0.002268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.998926 seconds.
+  path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/deph.mat
+  artifactKey: Guid(65e330d2e806af946943af085da98e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Shaders/deph.mat using Guid(65e330d2e806af946943af085da98e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1991614bc1167debac6c114d9e701d6') in 0.001952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
