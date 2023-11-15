@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Ejercicios/Ejercicio6Postprocesado/Susana Bustamante C/Assets/Scene/Escena.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0

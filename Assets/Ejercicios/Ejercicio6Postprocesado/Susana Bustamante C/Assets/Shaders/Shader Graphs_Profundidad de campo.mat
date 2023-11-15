@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DepthOfField
-  m_Shader: {fileID: -6465566751694194690, guid: c0a57a39ef5f53e49b353ebbb220761e, type: 3}
+  m_Name: Shader Graphs_Profundidad de campo
+  m_Shader: {fileID: -6465566751694194690, guid: e5608e46051bf3e47a54b745df5de8ab, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,11 +23,11 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BitTexture:
+    - _Texture2DAsset_237a51cf9f954e379303b6bb8e3f3f88_Out_0_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BlitTexture:
+    - _Texture2DAsset_24a2f13b0219407c9f75a2666052c25e_Out_0_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -44,12 +44,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _ApertureEnd: 5
-    - _ApertureStart: 0
-    - _AppertureSmooth: 26.74
-    - _AppertureStart: 1.1
-    - _FocalDistance: 14.57
-    - _PixelOffset: 18.5
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []
