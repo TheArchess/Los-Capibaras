@@ -44649,7 +44649,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -44706,7 +44706,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 4930
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -70908,8 +70908,10 @@ PlayableDirector:
     m_References:
     - 545dce3943dc48846bdcf9b341d9fca7: {fileID: 957884259}
     - 8af5361696913d84f979fe2aa9d951b3: {fileID: 22032012}
+    - 71ce6646a9c2a394fb038c3e7839e147: {fileID: 1991112801}
     - 2de96e3117f96004d8c322636fc0949e: {fileID: 957884259}
     - 17104199d4e1bd548894937749c133c6: {fileID: 2080486230}
+    - b74bc8482e1a7fb4eb42550046b53260: {fileID: 1991112801}
     - 1ea9139ce857baa489fadfc9135167fc: {fileID: 2064941385}
     - 3929d3a88c9e9bd49991be2c07ecf485: {fileID: 22032012}
     - b8d174eff22e1484d91871f983c9b203: {fileID: 22032012}
@@ -85747,6 +85749,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6090935996567951719, guid: a42018a5d3a3b024985412cf011e80d8, type: 3}
   m_PrefabInstance: {fileID: 1710470771}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1710573428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1979491758}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.77019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.77019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.77019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.876606
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.008086825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9753809
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.22052719
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 25.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      propertyPath: m_Name
+      value: Awita
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1991112802}
+  m_SourcePrefab: {fileID: 100100000, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
 --- !u!1 &1790186806
 GameObject:
   m_ObjectHideFlags: 0
@@ -95581,8 +95655,40 @@ Transform:
   - {fileID: 22032015}
   - {fileID: 2064941388}
   - {fileID: 957884262}
+  - {fileID: 1991112805}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1991112801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+  m_PrefabInstance: {fileID: 1710573428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1991112802
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991112801}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e8c08a8b2ffd86c4d9c10a5c7a089d90, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1991112805 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
+  m_PrefabInstance: {fileID: 1710573428}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2064941385
 GameObject:
   m_ObjectHideFlags: 0
@@ -95693,7 +95799,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -95750,7 +95856,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 8104
   InitialModule:
     serializedVersion: 3
     enabled: 1
