@@ -49,15 +49,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DisplacementStrenght: 0.11
-    - _Distance: 2.35
-    - _IntersectionCutoff: -0.63
-    - _NormalStrength: -2.84
+    - _DisplacementStrenght: -0.01
+    - _Distance: 0.27
+    - _IntersectionCutoff: -2.49
+    - _NormalStrength: -8.57
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReflectionQuality: 2.32
-    - _SpecularIntensity: 3.58
-    - _refractionamount: 1.74
+    - _ReflectionQuality: -1.4
+    - _SpecularIntensity: 0.38
+    - _refractionamount: 1.36
     m_Colors:
     - DeepWater: {r: 0.08210219, g: 0.1233475, b: 0.3867925, a: 0}
     - ShallowWater: {r: 0.2423016, g: 0.8029131, b: 0.9339623, a: 0}
