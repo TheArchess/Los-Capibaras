@@ -10002,7 +10002,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527632679}
   serializedVersion: 8
-  lengthInSec: 4.7
+  lengthInSec: 10
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -10077,7 +10077,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4.7
+      scalar: 10
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -24781,7 +24781,7 @@ GameObject:
   - component: {fileID: 902088850}
   - component: {fileID: 902088849}
   m_Layer: 0
-  m_Name: Smoke (1)
+  m_Name: Smoke Colorsito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24823,7 +24823,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9e5f6f00409ad1e4ead68f1e383ba3d0, type: 2}
+  - {fileID: 2100000, guid: 0a5d0dbd6b797584e9ae84f1f6411d34, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39534,7 +39534,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cb1da4a84e952a249827ede706f52145, type: 2}
+  - {fileID: 2100000, guid: 9e5f6f00409ad1e4ead68f1e383ba3d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49483,7 +49483,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610906791}
   serializedVersion: 8
-  lengthInSec: 5
+  lengthInSec: 10
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -49558,7 +49558,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 10
       minScalar: 5
       maxCurve:
         serializedVersion: 2
