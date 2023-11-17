@@ -85,14 +85,14 @@ Material:
     - _DisplacementStrenght: 0.01
     - _Distance: 1
     - _DistorsionStrength: 0
-    - _IntersectionCutoff: 1.19
+    - _IntersectionCutoff: 0.36
     - _NormalStrength: 0.2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReflectionIntensity: 1.17
-    - _ReflectionQuality: 0.1
-    - _SpecularIntensity: 5
-    - _refractionamount: 0.53
+    - _ReflectionQuality: -2.04
+    - _SpecularIntensity: 2.95
+    - _refractionamount: -34.34
     m_Colors:
     - DeepWater: {r: 0.082352936, g: 0.22520962, b: 0.3882353, a: 0.5019608}
     - ShallowWater: {r: 0.2423016, g: 0.8029131, b: 0.9339623, a: 0.2509804}
