@@ -56,6 +56,9 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _intersectionCutoof: 0
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.13157706, g: 0.3862707, b: 0.5283019, a: 0}
+    - _intersectioncolor: {r: 1, g: 1, b: 1, a: 0}
+    - _intersmoothstep: {r: 0, g: -0.05, b: 0, a: 0}
   m_BuildTextureStacks: []

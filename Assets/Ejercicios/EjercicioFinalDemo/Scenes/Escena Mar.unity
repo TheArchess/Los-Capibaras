@@ -95642,14 +95642,13 @@ PlayableDirector:
     - c12007ad88ae75b4d8617c979734046f: {fileID: 0}
     - 5f08b0d3b05e6d2439a0f3e328c65175: {fileID: 0}
     - dec2f92be39ac0842a63458d956d41fb: {fileID: 2080486230}
---- !u!4 &1979491758
-Transform:
+--- !u!224 &1979491758
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979491756}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -95663,6 +95662,11 @@ Transform:
   - {fileID: 1991112805}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1991112801 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36d9796b6575fea468dad38c955ed0a1, type: 3}
@@ -105501,5 +105505,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 106625463}
   - {fileID: 2141214947}
-  - {fileID: 1979491758}
   - {fileID: 1517130614}
+  - {fileID: 1979491758}
